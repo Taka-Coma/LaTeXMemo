@@ -67,7 +67,7 @@ or
 }
 ```
 *  Footnote in the table and tabular env. 
- ```
+```
 \usepackage{footnote}
 \makesavenoteenv{table}
 \makesavenoteenv{tabular}
