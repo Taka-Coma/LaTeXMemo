@@ -59,7 +59,7 @@ or
 * LaTeX: nice arranging package of PDF pages
 ```
 \usepackage{geometry}
-  \geometry{
+\geometry{
     a4paper,
     total={170mm,257mm},
     left=20mm,
