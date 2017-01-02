@@ -6,30 +6,46 @@
 
 # Memos
 
-* Change title of reference in LaTeX: http://www.lightstone.co.jp/latex/kb0059.htm
+## Shorten spaces b/w lines of references
+```
+\usepackage{setspace}
+...
+\begin{spacing}{0.9}
+\bibliograph{bibfile}
+\end{spacing}
+```
+
+## Change title of reference in LaTeX
+- ref. http://www.lightstone.co.jp/latex/kb0059.htm
 ```
 \renewcommand{\refname}{XXXXXXXX}
 or
 \renewcommand{\bibname}{XXXXXXXX}
 ```
-* US letter size setting in ACM format.
+
+## US letter size setting in ACM format.
 ```
 \setlength{\paperheight}{11in}
 \setlength{\paperwidth}{8.5in}
 \usepackage[pass, ]{geometry}
 ```
-* Include DOI to ACM format: http://www.sheridanprinting.com/typedept/cikm.htm
-* Reset the numbering of subfigure in LaTeX
+
+## Include DOI to ACM format
+- ref. http://www.sheridanprinting.com/typedept/cikm.htm
+
+## Reset the numbering of subfigure in LaTeX
 ```
 \setcounter{subfigure}{0}
 ```
-* Underline with automatic change line
+
+## Underline with automatic change line
 ```
 \usepackage{soul} 
 ....
 \ul{text}
 ```
-* Arrow with text in Latex
+
+## Arrow with text in Latex
 ```
 \xrightarrow{text}
 ```
@@ -40,15 +56,19 @@ or
 ```
 \circ
 ```
-* Add parentheses around subfig references: http://tex.stackexchange.com/questions/16291/adding-parentheses-around-subfig-references
+
+## Add parentheses around subfig references
+- ref. http://tex.stackexchange.com/questions/16291/adding-parentheses-around-subfig-references
 ```
 \subref*{ref}
 ```
-* Use `\url{...}` in `\caption` of table
+
+## Use `\url{...}` in `\caption` of table
 ```
 \caption{...\protect\url{...}...}
 ```
-* Shorten left margin of `itemize/enumerate/description`
+
+## Shorten left margin of `itemize/enumerate/description`
 ```
 \usepackage{enumitem}
 ...
@@ -56,7 +76,8 @@ or
 ...
 \end{...}
 ```
-* LaTeX: nice arranging package of PDF pages
+
+## LaTeX: nice arranging package of PDF pages
 ```
 \usepackage{geometry}
 \geometry{
@@ -66,7 +87,8 @@ or
     top=20mm,
 }
 ```
-*  Footnote in the table and tabular env. 
+
+## Footnote in the table and tabular env. 
 ```
 \usepackage{footnote}
 \makesavenoteenv{table}
