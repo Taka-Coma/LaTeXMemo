@@ -11,7 +11,7 @@
 \usepackage{setspace}
 ...
 \begin{spacing}{0.9}
-\bibliograph{bibfile}
+\bibliography{bibfile}
 \end{spacing}
 ```
 
