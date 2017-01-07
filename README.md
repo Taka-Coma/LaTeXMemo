@@ -30,8 +30,8 @@ or
 \usepackage[pass, ]{geometry}
 ```
 
-## Include DOI to ACM format
-- ref. http://www.sheridanprinting.com/typedept/cikm.htm
+## ~~Include DOI to ACM format~~ (New ACM format makes it easy > http://www.acm.org/publications/proceedings-template)
+- ~~ref. http://www.sheridanprinting.com/typedept/cikm.htm~~
 
 ## Reset the numbering of subfigure in LaTeX
 ```
