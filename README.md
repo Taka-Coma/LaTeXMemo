@@ -61,6 +61,8 @@ or
 ## Add parentheses around subfig references
 - ref. http://tex.stackexchange.com/questions/16291/adding-parentheses-around-subfig-references
 ```
+\usepackage[subrefformat=parens,labelformat=parens]{subfig}
+...
 \subref*{ref}
 ```
 
