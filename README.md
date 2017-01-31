@@ -97,3 +97,8 @@ or
 \makesavenoteenv{table}
 \makesavenoteenv{tabular}
 ```
+
+## Norm in math mode
+```
+\lVert ... \rVert
+```
