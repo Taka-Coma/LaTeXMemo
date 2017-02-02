@@ -55,6 +55,7 @@ or
 * `-` for short
 * `--` for middle
 
+
 ## Circle symbol
 ```
 \circ
