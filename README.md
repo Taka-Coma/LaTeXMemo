@@ -102,3 +102,12 @@ or
 ```
 \lVert ... \rVert
 ```
+
+## Any font size
+```
+\usepackage{anyfontsize}
+...
+{\fontsize{6.5}{6.5}\selectfont
+...
+}
+```
