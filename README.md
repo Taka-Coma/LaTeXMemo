@@ -50,10 +50,12 @@ or
 ```
 \xrightarrow{text}
 ```
-* Dashes
-  * `-` for short
-  * `--` for middle
-* Circle symbol
+
+## Dashes
+* `-` for short
+* `--` for middle
+
+## Circle symbol
 ```
 \circ
 ```
