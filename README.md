@@ -114,3 +114,9 @@ or
 ...
 }
 ```
+
+## Partial line in a table
+```
+\hline % full line
+\cline{2-3} % partial line from 2nd cell to 3rd cell
+```
