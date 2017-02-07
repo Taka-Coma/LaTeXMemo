@@ -120,3 +120,13 @@ or
 \hline % full line
 \cline{2-3} % partial line from 2nd cell to 3rd cell
 ```
+
+## Rotate text on multirow environment
+```
+\usepackage{multirow}
+...
+\begin{tabular}{|c|c|}
+\mulitrow{3}{*}{\rotatebox[origin=c]{90}{hoge fuga}} & hoge fuga
+...
+\end{tabular}
+```
