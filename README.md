@@ -48,6 +48,8 @@ or
 
 ## Arrow with text in Latex
 ```
+\usepackage{amsmath}
+...
 \xrightarrow{text}
 ```
 
