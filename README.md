@@ -132,3 +132,9 @@ or
 ...
 \end{tabular}
 ```
+
+
+## Hyphen in math
+```
+\[ TF\mbox{-}IDF(t, d) = df(t, d) \cdot idf(t) \]
+```
