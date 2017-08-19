@@ -138,3 +138,9 @@ or
 ```
 \[ TF\mbox{-}IDF(t, d) = df(t, d) \cdot idf(t) \]
 ```
+
+
+## Combination notation
+```
+\[ {{N}\choose{i}} \]
+```
