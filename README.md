@@ -144,5 +144,5 @@ or
 
 ## Combination notation
 ```
-\[ {{N}\choose{i}} \]
+\[ {{N} \choose{i}} \]
 ```
