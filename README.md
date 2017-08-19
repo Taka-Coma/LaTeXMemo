@@ -3,6 +3,8 @@
 * Copyright (c) 2016 Takahiro Komamizu
 * License: MIT
 * [Author homepage](http://taka-coma.pro/)
+* [Example LaTeX file](./trials/test.tex)
+* [Example PDF file](./trials/test.pdf)
 
 # Memos
 
