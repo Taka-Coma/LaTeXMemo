@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.26)  19 AUG 2017 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.3.26)  21 AUG 2017 07:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -331,12 +331,18 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 106.
 
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 111.
+
+
+LaTeX Warning: Command \textcircled invalid in math mode on input line 111.
+
 [2] (./test.aux) ) 
 Here is how much of TeX's memory you used:
- 4187 strings out of 493089
- 63688 string characters out of 6134842
+ 4188 strings out of 493089
+ 63703 string characters out of 6134842
  137987 words of memory out of 5000000
- 7626 multiletter control sequences out of 15000+600000
+ 7627 multiletter control sequences out of 15000+600000
  8053 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,15n,50p,235b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -351,7 +357,7 @@ r6.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
 pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on test.pdf (2 pages, 40728170 bytes).
+Output written on test.pdf (2 pages, 40728571 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
