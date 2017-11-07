@@ -152,3 +152,10 @@ or
 ```
 \textcircled{\scriptsize 1}
 ```
+
+## Change the numbering rules of lstlisting
+- Put the following at below of \begin{document}
+```
+\renewcommand{\thelstlisting}{\arabic{lstlisting}}
+```
+
