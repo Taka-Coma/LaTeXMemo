@@ -17,6 +17,7 @@
 \makesavenoteenv{table}
 \makesavenoteenv{tabular}
 \usepackage{multirow}
+\usepackage{listings}
 
 
 \begin{document}
@@ -109,6 +110,25 @@
 \section{Circled number}
 
 \[\textcircled{\scriptsize 1}\]
+
+
+\section{Change the numbering rules of lstlisting}
+
+\begin{lstlisting}[
+	captionpos=b,
+	caption=caption
+]
+test without section number
+\end{lstlisting}
+
+\renewcommand{\thelstlisting}{\thesection.\arabic{lstlisting}}
+
+\begin{lstlisting}[
+	captionpos=b,
+	caption=caption
+]
+test with section number
+\end{lstlisting}
 
 
 \end{document}
